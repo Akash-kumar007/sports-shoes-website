@@ -1,0 +1,446 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-shadow: border-box;
+    font-family:sans-serif;
+    font-family: 'montserrat',sans-serif;
+    font-family: 'poppins', sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px black;
+}
+
+section header .logo{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0;
+
+}
+
+section header .logo span{
+    color: rgb(238, 0, 0);
+}
+
+section header ul{
+    list-style:none;
+
+}
+
+section header ul li{
+    display: inline-block;
+    margin: 9px 20px;
+
+}
+
+section header ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section header ul li a:hover{
+    color: red;
+}
+
+section header p{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border-radius:30px ;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+
+section header p:hover{
+  color: white;
+  background: rgb(255, 0, 0);
+  text-decoration: none;
+
+}
+
+.circle{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.529);
+    clip-path: circle(190px at left -90px);
+    x-index: -1;
+}
+
+section .texts h1{
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    font-size: 100px;
+    color: black;
+}
+
+section .texts h1 span{
+    color: red;
+}
+
+section .texts p{
+     width: 650px;
+position: absolute;
+top: 150px;
+left: 4%;
+line-height: 26px;
+text-align: justify;
+}
+
+section .background_image img{
+width: 510px;
+height: 550px;
+position: absolute;
+top: 25%;
+left: 54%;
+margin-left: 6%;
+border-radius: 10px;
+}
+
+section .btn{
+    position: relative;
+    top: 77%;
+    left: 38px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .btn .read{
+    background: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+section .btn .read:hover{
+    color: white;
+    background: grey;
+}
+
+section .btn .read1:hover{
+    color: white;
+    background: grey;
+}
+
+
+section .btn p{
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.about{
+    width:100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.about .box{
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .box .card:hover{
+    box-shadow: black;
+    transform: scale(1,1);
+    border-radius:4px;
+
+}
+
+.about .box .card{
+    width: 170px;
+    height: auto;
+    padding: 0px 0px;
+    margin: 25px;
+    margin-left: 20px;
+    background: white;
+    border: solid white;
+    cursor: pointer;
+    x-index: 1;
+    transition: 0.3s;
+
+}
+
+.about .box .card img{
+    width: 200px;
+    margin-left: -50px;
+}
+
+.about hr{
+    height: 10px;
+    background: rgb(0, 0, 0);
+    border-radius:5px ;
+    margin: 30px 110px;
+
+}
+
+/* .about .clothes h3{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px 0;
+    text-align: center;
+
+} */
+
+.about .clothes .top_wear {
+    
+    text-align: center;
+    margin-left: 35px 0;
+    color: black;
+    font-size:40px;
+    margin-bottom: 40px;
+
+}
+.about .clothes p{
+   
+    text-align: center;
+    margin-left: 35px 0;
+    color: black;
+    font-size:20px;
+    margin-bottom: 40px;
+
+}
+
+.about .clothes_box{
+    width: 100px;
+    display: grid;
+    display: flex;
+    grid-template-columns: lfr lfr lfr lfr;
+    grid-gap:15px ;
+}
+
+
+.about .clothes_box .clothes_card{
+    background: rgb(162, 162, 162);
+    width: 300px;
+    padding:20px 25px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.about .clothes_box .clothes_card:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.about .clothes .clothes_box img{
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.about .clothes .clothes_box img:hover{
+    transform: scale(1.1);
+}
+
+.about .clothes_box .clothes_card h1{
+    font-size: 25px;
+    color: white;
+    margin: 10px 0;
+
+}
+
+.about .clothes_box .clothes_card h1{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+
+.about .clothes  .clothes_card .btn{
+background-color: red;
+padding: 10px 10px 10px 10px;
+color: rgb(255, 252, 252);
+text-decoration: none;
+border-radius: 15px;
+
+}
+
+.about .clothes  .clothes_card .btn:hover{                                      
+    color: black;
+    background: rgb(125, 125, 125);
+}
+
+.about .jeans h1{
+    font-size: 40px;
+    padding: 40px;
+}
+
+.about .jeans p{
+    text-align: center;
+    margin: 35px 0;
+   font-size: 20px;
+    padding: light rgb(255, 237, 203);
+    color: rgb(0, 0, 0);
+}
+
+.about .jeans_box{
+width: 100%;
+display: grid;
+display: flex;
+grid-template-columns: lfr lfr lfr lfr;
+grid-gap: 15px;
+width: 250px;
+padding: 2  5px 15px;
+text-align: center;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.about .jeans_box .jeans_card{
+    background: rgb(131, 131, 131);
+    width: 300px;
+    padding:20px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.about .jeans_box .jeans_card:hover{
+    box-shadow: 5px 5px 5px rgb(122, 122, 122);
+}
+
+.about .jeans_box .jeans_card .btn{
+    background-color: red;
+    padding: 10px 10px 10px 10px ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+.about .jeans_box .jeans_card .btn:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(82, 82, 82);
+
+}
+
+.about .jeans_box .jeans_card img{
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about .jeans_box .jeans_card img:hover{
+    transform: scale(1.1);
+
+}
+
+.about .jeans_box .jeans_card h1{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: -25px;
+}
+
+.about .jeans_box .jeans_card p{
+color: rgb(0, 0, 0);
+margin: 20px ;
+font-size: 20px;
+}
+
+.about .jeans_box .jeans_card.btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 8px;
+    background: red;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    padding: 50px;
+
+}
+
+.footer .main{
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_col{
+    width: 20%;
+    padding: 0 20px;
+}
+
+
+.footer_col h4{
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 300px;
+    position: relative;
+}
+
+.footer_col h4::before{
+    content:'';
+    position: absolute;
+    left: -2;
+    top: 20px;
+    background: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+
+}
+
+.footer_col ul li a{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+
+.footer_col img{
+   margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+
+ 
+}
